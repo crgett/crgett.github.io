@@ -19,20 +19,22 @@ hr {
 	color: #e2b71b;
 }
 
-.navbar a {
+#js-note {
+	text-align: center;
+	font-size: 16px;
+}
+
+#note {
+	color: red;
+}
+
+#home-btn {
 	color: #e2b71b;
 	font-size: 20px;
 }
 
-.navbar a:hover {
-	color: white;
-}
-
-.navbar-toggler span {
-	color: white;
-}
-
 .nav-item {
+	font-size: 20px;
 	margin-left: 50px;
 }
 
@@ -55,7 +57,7 @@ hr {
 
 .intro-name {
 	color: #e2b71b;
-	padding-top: 30%;
+	padding-top: 20%;
 	font-size: 3em;
 }
 
@@ -280,7 +282,7 @@ hr {
 
 .footer {
 	background: black;
-	height: 10em;
+	height: 12em;
 	color: #e2b71b;
 	text-align: center;
 }
