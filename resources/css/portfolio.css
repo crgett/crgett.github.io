@@ -251,14 +251,6 @@ hr {
 	font-size: 20px;
 }
 
-.athletics .hockey {
-	background-image: url("../imgs/hockey.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 20em;
-}
-
 .athletics .lacrosse1 {
 	background-image: url("../imgs/lacrosse.jpg");
     background-size: cover;
@@ -267,8 +259,16 @@ hr {
     height: 20em;
 }
 
-.athletics .lacrosse2 {
-	background-image: url("../imgs/intramural.jpg");
+.athletics .hockey {
+	background-image: url("../imgs/hockey.JPG");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 20em;
+}
+
+.athletics .intramural {
+	background-image: url("../imgs/intramural.JPG");
     background-size: cover;
     background-position: center;
     color: white;

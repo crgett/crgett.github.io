@@ -2,8 +2,8 @@ var messages = ["an <span id=\"i-am\">aspiring software engineer</span>",
 "a <span id=\"i-am\">problem solver</span>", "a <span id=\"i-am\">renaissance man</span>", 
 "a <span id=\"i-am\">student</span>", "an <span id=\"i-am\">explorer</span>", 
 "an <span id=\"i-am\">athlete</span>"];
-var imgs = ["resources/imgs/google.jpg", "resources/imgs/city.jpg", "resources/imgs/ren_faire.jpg", 
-"resources/imgs/wedding.jpg", "resources/imgs/scotland.jpg", "resources/imgs/lacrosse2.jpg"]
+var imgs = ["resources/imgs/google.jpg", "resources/imgs/city.JPG", "resources/imgs/ren_faire.jpg", 
+"resources/imgs/wedding.jpg", "resources/imgs/scotland.JPG", "resources/imgs/lacrosse2.jpg"]
 
 loopMessages(1);
 
