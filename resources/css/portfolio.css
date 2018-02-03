@@ -1,0 +1,304 @@
+body {
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+nav {
+	background-color: black;
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.highlight {
+	color: #e2b71b;
+}
+
+.navbar a {
+	color: #e2b71b;
+	font-size: 20px;
+}
+
+.navbar a:hover {
+	color: white;
+}
+
+.navbar-toggler span {
+	color: white;
+}
+
+.nav-item {
+	margin-left: 50px;
+}
+
+.intro {
+	background-color: black;
+	text-align: center;
+	height: 100vh;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	display: flex;
+  	align-items: center;
+}
+
+.intro-img {
+	max-height: 70vh;
+}
+
+
+.intro-name {
+	color: #e2b71b;
+	padding-top: 30%;
+	font-size: 3em;
+}
+
+.intro-descr {
+	color: white;
+	font-size: 3em;
+}
+
+#i-am {
+	color: #e2b71b;
+}
+
+#about {
+	height: 0;
+}
+
+.about {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.about h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about p {
+	font-size: 20px;
+}
+
+.about .tab {
+	text-align: center;
+}
+
+.about .tab p {
+	margin-top: 20px;
+}
+
+.academics {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.academics h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.academics p {
+	font-size: 20px;
+}
+
+.academics h2 {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.academics ul {
+	font-size: 20px;
+}
+
+.projects {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.projects h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.projects p {
+	font-size: 20px;
+}
+
+.card-header {
+	border: 1px solid black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.card-body {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#honeycomb {
+	background-color: orange;
+}
+
+#honeycomb button {
+	color: black;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#wishlist {
+	background-color: #40e0d0;
+}
+
+#wishlist button {
+	color: white;
+	font-family: 'Satisfy', cursive;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#wishlist-txt a {
+	background: #40e0d0;
+	color: black;
+}
+
+#arcade {
+	background: #67B26F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#arcade button {
+	color: #d4d4d4;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	font-size: 2em;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#stockoverflow {
+	background: black;
+}
+
+#stockoverflow button {
+	color: orange;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#drone {
+	background: #070000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#drone button {
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#hatioli {
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#hatioli button {
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.athletics {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.athletics h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.athletics p {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.athletics .hockey {
+	background-image: url("../imgs/hockey.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 20em;
+}
+
+.athletics .lacrosse1 {
+	background-image: url("../imgs/lacrosse.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 20em;
+}
+
+.athletics .lacrosse2 {
+	background-image: url("../imgs/intramural.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 20em;
+}
+
+.athletics p a {
+	text-decoration: none;
+	color: red;
+}
+
+.footer {
+	background: black;
+	height: 10em;
+	color: #e2b71b;
+	text-align: center;
+}
+
+.footer .container {
+	padding-top: 20px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #e2b71b;
+}
+
+#site-descr {
+	color: white;
+}
+

@@ -1,139 +1,293 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Corbin Gett</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="src/css/index.css">
-	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar|Roboto+Mono|Satisfy" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="resources/css/portfolio.css">
+	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar|Roboto+Mono|Satisfy|Raleway" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	  	<!-- Brand and toggle get grouped for better mobile display -->
-	  	<div class="navbar-header">
-	  		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	  			<span class="sr-only">Toggle navigation</span>
-	  			<span class="icon-bar"></span>
-	  			<span class="icon-bar"></span>
-	  			<span class="icon-bar"></span>
-	  		</button>
-	      	<a class="navbar-brand" href="">Corbin Gett</a>
-	    </div>
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      	<ul class="nav navbar-nav">
-	        	<li class="active"><a href="">Home</a></li>
-	        	<li><a href="src/about.html">About</a></li>
-	        	<li><a href="src/athletics.html">Athletics</a></li>
-	        	<li><a href="src/academics.html">Academics</a></li>
-	        	<li><a href="src/projects.html">Projects</a></li>
-	      	</ul>  
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+	<nav class="navbar fixed-top navbar-expand-lg">
+		<a class="navbar-brand" href="" id="home-btn">Corbin Gett</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#about" id="about-btn">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#academics" id="academics-btn">Academics</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects" id="projects-btn">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#athletics" id="athletics-btn">Athletics</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 
-	<!-- http://benueagles.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2017/2/18/mlax7.jpg -->
-
-	<div class="container">
-		<div class="jumbotron">
-			<p>It all started with</p>
-			<h1>"Hello World"</h1>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="thumbnail">
-					<img src="src/imgs/wedding.jpg">
+	<div class="jumbotron jumbotron-fluid intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 intro-txt">
+					<h1 class="intro-name">Hi, I'm Corbin.</h1>
+					<h1 class="intro-descr">I'm <span id="roto">an <span id="i-am">athlete</span></span>.</h1>
 				</div>
-			</div>
-			<div class="col-lg-8 col-md-6 about">
-				<h3>Hi, I'm Corbin.</h3>
-				<p> I'm an aspiring software engineer with a passion for programming. I'm currently a senior computer science major at Benedictine University in Lisle, Illinois. Two years ago, 
-				I decided to drop my business analytics major and pursue a degree in computer science; I couldn't be happier with my decision! I've come a long way since then, from autonomously piloting 
-				an AR Drone with node.js to deploying a full-stack Java Spring application to google app engine, and I'm exiciting to see where computer programming will take me and what I'll be able to 
-				create in the years to come!</p>
-			</div>
-		</div>
-		<hr>
-		<div class="row">
-			<div class="col-lg-8 col-md-6 about">
-				<h3>What You'll Find Here</h3>
-				<ul>
-					<li><strong>About</strong> - Here you'll see what makes me, me. I have many interests and hobbies, such as weightlifting, rock climbing, archery, and more.</li>
-					<li><strong>Athletics</strong> - Team sports, specifically hockey and lacrosse, have been a huge part of my life. here you'll see statistics, awards, and photos from my athletic career.</li>
-					<li><strong>Academics</strong> - Here you'll find my academic achievements and career goals, relevant course descriptions, and projects I've completed - both individually and as a part of a group.</li>
-				</ul>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="thumbnail">
-					<img src="src/imgs/lacrosse.jpg">
-				</div>
-			</div>
-		</div>
-		<hr>
-		<div class="row">
-			<div class="home-header">
-				<h1>Featured Projects</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail project">
-					<div class="honeycomb">
-						<h1>Honeycomb</h1>
+				<div class="col-md-6">
+					<div class="text-center">
+						<img src="resources/imgs/lacrosse2.jpg" class="rounded img-fluid intro-img" alt="...">
 					</div>
-					<div class="caption wishlist">
-						<p>Honeycomb is a Pinterest knockoff that allows users to create posts on topics that interest them. I completed this project in a group of four. We
-						developed the application with agile methods, including the Scrum framework, Confluence, and JIRA.</p>
-						<!-- <p style="text-align: center"><a href="">Learn More</a></p> -->
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail project">
-					<div class="wishlist">
-						<h1>WishList</h1>
-					</div>
-					<div class="caption wishlist">
-						<p>WishList is a social media based gift giving web application deployed on google app engine. I developed the project individually using Java and
-						the Spring framework. JSPs are used to build the html and an SQL relational database stores the data.</p>
-						<!-- <p style="text-align: center"><a href="">Learn More</a></p> -->
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail project">
-					<div class="arcade">
-						<h1>Arcade</h1>
-					</div>
-					<div class="caption wishlist">
-						<p>In a group of three, I designed a small arcade of three games over the course of two Scrum sprints. The group had experience with Swing in the past, 
-						but we built the arcade with JavaFX and took on the challenge of learning it as we developed.</p>
-						<!-- <p style="text-align: center"><a href="">Learn More</a></p> -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="project-footer">
-				<h2>View the Projects tab to learn more about projects I've completed!</h2>
-			</div>
-		</div>
-		<hr>
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="home-footer">
-					<h1><i class="fa fa-linkedin-square" aria-hidden="true"></i> Let's Connect!</h1>
-					<p><a href="https://www.linkedin.com/in/corbin-gett-328890153/" target="_blank">Send me a connection on LinkedIn and we can chat!</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+	<hr id="about">
+
+	<div class="container">
+		
+		<div class="about">
+
+			<h1>Who is this guy?</h1>
+
+			<p>I'm an aspiring software engineer with a passion for programming. Two years ago, I decided to drop my business analytics major and pursue a degree in computer science; I couldn't be happier with my decision! I've come a long way since then, from autonomously piloting an AR Drone with node.js to deploying a full-stack Java Spring application to Google App Engine, and I'm excited to see what the future has in store.</p>
+
+			<h1>Beyond the Code</h1>
+
+			<div class="row">
+				<div class="col-md-3 col-sm-6 tab">
+					<i class="fa fa-plane fa-5x"></i>
+					<p>I've lived in six different states and have visited most of the continental US. A good friend of mine lives in Scotland, so I've been able to travel through parts of Europe with him. Isle of Skye is by far the coolest place I've ever visited.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 tab">
+					<i class="fab fa-d-and-d fa-5x"></i>
+					<p>I'm a huge geek when it comes to medieval themed movies, shows, games, and events. I go to the Renessaince Faire every year and I'm obsessed with Game of Thrones. I've played World of Warcraft for 10 years, and I don't plan on stopping anytime soon.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 tab">
+					<i class="fas fa-motorcycle fa-5x"></i>
+					<p>Although I wouldn't call myself a thrill seeker, I have many hobbies and interests that make my mom nervous; These include motorcycles, skiing, snowboarding, rock climbing, archery, knife/axe throwing, competitive team sports, and video games.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 tab">
+					<i class="fas fa-desktop fa-5x"></i>
+					<p>I built my own computer in the fall of 2016 and I've continued to add onto it ever sense. I plan on updating the graphics card sometime over the next year, but crypto currency mining has raised the prices so much it might not be worth it.</p>
+				</div>
+			</div>
+		
+		</div>
+
+		<hr id="academics">
+
+		<div class="academics">
+			
+			<h1>Academics</h1>
+
+			<p>As a senior at Benedictine University, I believe my formal education, and my own personal studies, have prepared me to hit the ground running in industry. I have honed my communication skills and successfully completed multiple group projects using development tools and frameworks such as Scrum, Git, BitBucket, Confluence, and JIRA. At Benedictine, our foundation of data structures, algorithms, and object-oriented principles is built with Java, so I consider this my most comprehensive language. However, I've been exposed to a variety of other languages including JavaScript, SQL, and Python.</p>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<h2>Achievements & Awards</h2>
+
+					<ul>
+						<li>Current GPA - 4.0 / 4.0</li>
+						<li>Recieved merit based Raize Software Endowed Scholarship for the 2017-2018 academic year</li>
+						<li>CoSIDA Academic All-American in 2017</li>
+						<li>CoSIDA Academic All-District in 2016 & 2017</li>
+						<li>MLC All-Academic Team in 2015, 2016, & 2017</li>
+						<li>Dean's List through all semesters at Benedictine</li>
+						<li>Benedictine Presidential Scholarship</li>
+						<li>Benedictine Leadership Award</li>
+					</ul>
+				</div>
+				
+				<div class="col-md-6">
+					<h2>Courses</h2>
+
+					<ul>
+						<li>Computer Architecture</li>
+						<li>Data Structures and Algoithms I & II</li>
+						<li>Object-Oriented Design and Programming</li>
+						<li>Advanced Web Application Development</li>
+						<li>Software Engineering</li>
+						<li>Database Management Systems</li>
+						<li>Operating Systems</li>
+						<li>Data Mining</li>
+						<li>Capstone Project</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+		<hr id="projects">
+
+		<div class="projects">
+			
+			<h1>Projects</h1>
+
+
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header" id="stockoverflow">
+						<h5 class="mb-0">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#stockoverflow-txt" aria-expanded="true" aria-controls="stockoverflow-txt">
+								Stock Overflow
+							</button>
+						</h5>
+					</div>
+					<div id="stockoverflow-txt" class="collapse show" aria-labelledby="stockoverflow" data-parent="#accordion">
+						<div class="card-body">
+							<p><strong>Course: </strong>Capstone Project</p>
+							<p><strong>Objective: </strong>Our of objectives is to create an fun, educational application for investing in the stock market. Stock Overflow will have two main features: an educational mode where users can practice investing in stocks with real-time prices and a competitive fantasy stock trading league where users can compete against their friends to see who can make the highest gain over a set period of time. All of the money and purchases are fictional of course, but will be simulating real-life investing as close as is possible with our API limitations.</p>
+							<p><strong>Technologies: </strong>This is a four person project that we'll be developing over the course of thirteen scrum sprints. We will manage our sprints with Confluence and JIRA, and utilized a Git repository hosted in BitBucket. The application will be written in Java using both the Spring and Hibernate frameworks. The frontend will be built with JavaServlet Pages (JSP), and data will be stored in a MySQL database.</p>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="honeycomb">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#honeycomb-txt" aria-expanded="false" aria-controls="honeycomb-txt">
+								Honeycomb
+							</button>
+						</h5>
+					</div>
+
+					<div id="honeycomb-txt" class="collapse" aria-labelledby="honeycomb" data-parent="#accordion">
+						<div class="card-body">
+							<p><strong>Course: </strong>Software Engineering</p>
+							<p><strong>Objective/Outcome: </strong>Our of objectives was to create a social media platform / Pinterest knockoff that allowed users to create posts on topics that interest them, follow other users, like/comment on other users posts, and search for posts or users. Their homepage would be filled with content from the users they follow and other posts on topics that are similar to their interests. Users could attach images to their posts or update their profile picture with custom images from their PC. We successfully presented an Alpha version of the site with the above functionalities.</p>
+							<p><strong>Technologies: </strong>I completed this project in a group of four. We developed the application with agile methods over the course of three scrum sprints. We managed our sprints with Confluence and JIRA, and we utilized a Git repository hosted in BitBucket. The server side code for the project was written in Java using the Spring framework, the frontend html pages were built with JaveServlet Pages (JSP), and the database was stored in MySQL and accessed with basic connection pooling and SQL statements.</p>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="wishlist">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#wishlist-txt" aria-expanded="false" aria-controls="wishlist-txt">
+								WishList
+							</button>
+						</h5>
+					</div>
+					<div id="wishlist-txt" class="collapse" aria-labelledby="wishlist" data-parent="#accordion">
+						<div class="card-body">
+							<p><strong>Course: </strong>Advanced Web Application Development</p>
+							<p><strong>Objective/Outcome: </strong>I sought to design a social media based gift giving platform. The idea is that users can add items to a list of gifts their interested in, then their friends could "claim" gifts to buy for them for the holidays. The application would resemble a wedding registry, but wouldn't be limited to the wedding space. I completed the project on my own and, although the homepage is rough, I met all my desired requirements and am happy with the result.</p>
+							<p><strong>Technologies: </strong>I completed this project individually using Subversion and an SVN repository for version control. The frontend html pages were built with JavaServlet Pages (JSP) and CSS styling was done with the Materialize framework. The server side code is written in Java with the spring framework and data is stored is a MySQL relational database hosted on Google App Engine (of course, the dev database was local to my machine). I used Maven for build automation and I successfully deployed the application to Google App Engine.</p>
+							<p><a class="btn btn-light" href="https://cloudsql-dot-hello-world-184816.appspot.com" target="_blank">Visit Wishlist</a> *Note the site will take several seconds to boot up
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="arcade">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#arcade-txt" aria-expanded="false" aria-controls="arcade-txt">
+								Arcade
+							</button>
+						</h5>
+					</div>
+					<div id="arcade-txt" class="collapse" aria-labelledby="arcade" data-parent="#accordion">
+						<div class="card-body">
+							<p><strong>Course: </strong>Software Engineering</p>
+							<p><strong>Objective/Outcome: </strong>Our of objectives was to create a small arcade using the JavaFX platform. At this point, I had experience using Java Swing to make a zombie apocalypse board game, but I'd never used JavaFX. My group and I decided to take on the challenge of learning JavaFX as we designed the arcade over two scrum sprints. We built three games: tic-tac-toe, minesweeper, and a fortune teller. </p>
+							<p><strong>Technologies: </strong>I completed this project with two other students. We used Subversion and an SVN repository for version control. The arcade and game GUIs were built with JavaFX and all the backend logic was built in Java. This project was my first experience with Scrum contracts and agile development.</p>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="hatioli">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#hatioli-txt" aria-expanded="false" aria-controls="hatioli-txt">
+								Hatioli
+							</button>
+						</h5>
+					</div>
+					<div id="hatioli-txt" class="collapse" aria-labelledby="hatioli" data-parent="#accordion">
+						<div class="card-body">
+							<p><strong>Course: </strong>Advanced Web Application Development</p>
+							<p><strong>Objective/Outcome: </strong>Our firsts group project in advanced web was to create an e-commerce site; My group created a fictional website that sold hats. After the group project was complete, we - individually - had to make an adiminstrative platform for our e-commerce site. This platform needed to have complete CRUD operations for users, products, and purchases. Also, we needed to impliment batch uploads through a CSV file for users and products. An elegant UI wasn't required in the specification, but was recommended for ease-of-use.</p>
+							<p><strong>Technologies: </strong>I completed this project prior to learning any Java web frameworks, such as Spring and Hibernate. So, I had to build out the application with basic Java Servlets - the old fashioned way. The frontend was designed using JavaServlet Pages (JSP) and data was stored in a MySQL relational database. We deployed our projects locally to an Apache Tomcat server.</p>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="drone">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#drone-txt" aria-expanded="false" aria-controls="drone-txt">
+								AR Drone
+							</button>
+						</h5>
+					</div>
+					<div id="drone-txt" class="collapse" aria-labelledby="drone" data-parent="#accordion">
+						<div class="card-body">
+							<p><strong>Course: </strong>Natural Science Summer Research Program</p>
+							<p><strong>Objective/Outcome: </strong>I worked on this research project with one other student and a professor from Benedictine. The focus of the project was to create a low-cost autonomous drone capable of detecting a reference object for search and resuce applications. By the end of the summer, the contribution of the work was a script capable of detecting a 3-dimensional reference object through post-processing of drone footage.</p>
+							<p><strong>Technologies: </strong>Image processing was done with a Matlab script that detected, compared, and matched SURF in a cycle of images of a reference object and a single video frame. RANSAC and proportion comparisons were used to locate the reference object in the video frame and prevent misidentifying other objects. We piloted the drone with libaries written in either node.js or java.</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<hr id="athletics">
+
+		<div class="athletics">
+			
+			<h1>Athletics</h1>
+
+			<div class="row">
+				
+				<div class="col-md-4 col-sm-12">
+					<div class="jumbotron jumbotron-fluid lacrosse1">
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="jumbotron jumbotron-fluid hockey">
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="jumbotron jumbotron-fluid lacrosse2">
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				
+				<p>I've been playing team sports my entire life. Originally, I loved baseball, but that obsession faded away when I couldn't bat to save my life. When we moved to the east coast, I picked up a new sport called lacrosse; It was the perfect sport for me. Hockey was the only other sport I continued to play into high school, and I'm so glad I never gave it up. I was blessed with the opportunity to continue my lacrosse career at the NCAA Division III level at Benedictine University. The friendships I've made through this team are irreplaceable and I expect they'll continue long after we graduate. When I'm not on the turf, I still like to compete; My pride and joy is winning the intramural badminton competition with my teammate, Blake.</p>
+
+				<p>You may view my BU Men's Lacrosse Profile <a href="http://benueagles.com/roster.aspx?rp_id=9470&path=mlax" target="_blank">here</a>.</p>
+			</div>
+
+		</div>
+
+	</div> <!-- contrainer -->
+
+	<div class="footer">
+		<div class="container">
+			<a href="https://www.linkedin.com/in/corbin-gett-328890153/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+			<p>Connect with me on LinkedIn for more information</p>
+			<p id="site-descr">This site was designed using Bootstrap 4 as a template, custom styles and JavaScript (JQuery) were written by myself.</p>
+		</div>	
+	</div>
+
+
+
+
+
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="resources/js/portfolio.js"></script>
 </body>
 </html>
