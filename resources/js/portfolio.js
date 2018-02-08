@@ -1,29 +1,28 @@
-var messages = ["an <span id=\"i-am\">aspiring software engineer</span>", 
- "an <span id=\"i-am\">athlete</span>", "a <span id=\"i-am\">renaissance man</span>", 
-"a <span id=\"i-am\">student</span>", "an <span id=\"i-am\">explorer</span>", 
-"a <span id=\"i-am\">problem solver</span>"];
-var imgs = ["resources/imgs/google.jpg", "resources/imgs/lacrosse2.jpg", "resources/imgs/ren_faire.jpg", 
-"resources/imgs/wedding.jpg", "resources/imgs/scotland.JPG", "resources/imgs/city.JPG"]
+var messages = ["an aspiring software engineer.",
+"an athlete.", "a renaissance man.", "a student.", "an explorer.",
+"a problem solver."];
 
-loopMessages(1);
+var typed = new Typed("#typed", {
+	strings: messages,
+	typeSpeed: 80,
+    backSpeed: 40,
+    smartBackspace: true,
+    loop: true
+});
 
-function loopMessages(i) {
-
-	if (messages.length > i) {
-
-		setTimeout(function() {
-			$("#roto").html(messages[i]);
-			$(".intro-img").attr("src", imgs[i]);
-			loopMessages(++i);
-        }, 3000); // 1 second (in milliseconds)]
-
-    } else if (messages.length == i) { // Loop
-
-        loopMessages(0);
-
-    }
-
-}
+$(document).ready(function(){
+    var scroll_start = 0;
+    var change = $('#change_nav');
+    var offset = change.offset();
+    $(document).scroll(function() {
+        scroll_start = $(this).scrollTop();
+        if(scroll_start > offset.top) {
+            $('#navbar').css('background-color', 'black');
+        } else {
+            $('#navbar').css('background-color', 'transparent');
+        }
+    });
+});
 
 $("#about-btn").click(function() {
 	$("html, body").animate({

@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
 		<a class="navbar-brand" href="" id="home-btn">Corbin Gett</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -35,34 +35,38 @@
 		</div>
 	</nav>
 
+	<div id="change_nav"></div>
+
 	<div class="jumbotron jumbotron-fluid intro">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 intro-txt">
-					<h1 class="intro-name">Hi, I'm Corbin.</h1>
-					<h1 class="intro-descr">I'm <span id="roto">an <span id="i-am">aspiring software engineer</span></span>.</h1>
-				</div>
-				<div class="col-md-6">
-					<div class="text-center">
-						<img src="resources/imgs/google.jpg" class="rounded img-fluid intro-img" alt="...">
-					</div>
-				</div>
-			</div>
-		</div>
+		<div class="type-text">
+			<h1>Hi, I'm Corbin.</h1>
+			<p>I'm <span id="typed"></span></p>
+		</div>	
 	</div>
 
 	<hr id="about">
+
 
 	<div class="container">
 		
 		<div class="about">
 
+			<div class="row">
+				
+				<div class="col-md-5 head-img"><img src="resources/imgs/wedding.jpg" class="rounded-img img-thumbnail"></div>
+				<div class="col-md-7"><h1>Who is this guy?</h1></div>
 
-			<h1>Who is this guy?</h1>
+			</div>
 
 			<p>I'm an aspiring software engineer with a passion for programming. Two years ago, I decided to drop my business analytics major and pursue a degree in computer science. I couldn't be happier with my decision! I've come a long way since then, from autonomously piloting an AR Drone with node.js to deploying a full-stack Java Spring application to Google App Engine, and I'm excited to see what the future has in store.</p>
 
-			<h1>Beyond the Code</h1>
+			<div class="row twisted">
+				
+				<div class="col-md-7"><h1>Beyond the Code</h1></div>
+				<div class="col-md-5"><img src="resources/imgs/ren_faire.jpg" class="rounded-img img-thumbnail"></div>
+				
+
+			</div>
 
 			<div class="row">
 				<div class="col-md-3 col-sm-6 tab">
@@ -283,6 +287,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
 	<script type="text/javascript" src="resources/js/portfolio.js"></script>
 </body>
 </html>
