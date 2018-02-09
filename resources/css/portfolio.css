@@ -26,7 +26,7 @@ hr {
 }
 
 #navbar {
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -63,7 +63,7 @@ hr {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.typed-cursor {
+.typewriter-cursor {
 	color: #e2b71b;
 }
 
@@ -113,6 +113,15 @@ hr {
 	margin-top: 20px;
 }
 
+#twentyfive {
+	margin-top: 40px;
+}
+
+#twentyfive a {
+	text-decoration: none;
+	color: red;
+}
+
 .academics {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -123,6 +132,11 @@ hr {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.academics h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .academics p {
@@ -138,6 +152,10 @@ hr {
 .academics ul {
 	font-size: 20px;
 }
+
+ #disclaimer {
+ 	text-align: center;
+ }
 
 .projects {
 	margin-top: 100px;
@@ -296,8 +314,9 @@ hr {
 }
 
 .footer {
-	background: black;
-	height: 12em;
+	background-color: #414141;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	color: #e2b71b;
 	text-align: center;
 }
@@ -318,4 +337,3 @@ hr {
 #site-descr {
 	color: white;
 }
-
