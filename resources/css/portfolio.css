@@ -50,11 +50,11 @@ hr {
 
 .intro h1 {
 	color: #e2b71b;
-	font-size: 70px;
+	font-size: 10vh;
 }
 
 .intro p {
-	font-size: 70px;
+	font-size: 10vh;
 }
 
 .type-text {
@@ -68,15 +68,8 @@ hr {
 }
 
 .head-img {
-	text-align: right;
-}
-
-.twisted img{
-	text-align: left;
-}
-
-.twisted h1 {
-	text-align: right;
+	text-align: center;
+	padding-top: 10px;
 }
 
 #about {
@@ -95,8 +88,6 @@ hr {
 
 .about h1 {
 	font-size: 50px;
-	margin-top: 75px;
-	margin-bottom: 75px;
 }
 
 .about p {
@@ -104,21 +95,35 @@ hr {
 	margin-bottom: 30px;
 }
 
-.about .tab {
+.beyond {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.beyond-icon {
 	text-align: center;
 }
 
 .about .tab p {
 	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-#twentyfive {
-	margin-top: 40px;
+.greek-font {
+	font-family: 'Alegreya', serif;
 }
 
-#twentyfive a {
-	text-decoration: none;
-	color: red;
+.lycurgus {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+.vulcan {
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .academics {

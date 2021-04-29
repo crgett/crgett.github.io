@@ -6,10 +6,10 @@ var typewriter = new Typewriter(obj, {
 	deleteSpeed: 50
 });
 
-typewriter.typeString('an aspiring software engineer.')
+typewriter.typeString('a software engineer.')
     .pauseFor(2500)
-    .deleteChars(27)
-    .typeString('athlete.')
+    .deleteChars(19)
+    .typeString('n athlete.')
     .pauseFor(2500)
     .deleteChars(10)
     .typeString(' renaissance man.')
@@ -18,10 +18,10 @@ typewriter.typeString('an aspiring software engineer.')
     .typeString(' student.')
     .pauseFor(2500)
     .deleteChars(9)
-    .typeString('n explorer.')
+    .typeString('n entrepreneur.')
     .pauseFor(2500)
-    .deleteChars(11)
-    .typeString(' problem solver.')
+    .deleteChars(15)
+    .typeString(' stake pool operator.')
     .pauseFor(2500)
     .deleteAll()
     .start();
