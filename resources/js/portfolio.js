@@ -15,9 +15,6 @@ typewriter.typeString('a software engineer.')
     .typeString(' renaissance man.')
     .pauseFor(2500)
     .deleteChars(17)
-    .typeString(' student.')
-    .pauseFor(2500)
-    .deleteChars(9)
     .typeString('n entrepreneur.')
     .pauseFor(2500)
     .deleteChars(15)
@@ -33,7 +30,7 @@ $(document).ready(function(){
     $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
-            $('#navbar').css('background-color', '#414141');
+            $('#navbar').css('background-color', '#222222');
         } else {
             $('#navbar').css('background-color', 'rgba(0, 0, 0, 0.5)');
         }

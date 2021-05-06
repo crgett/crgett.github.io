@@ -34,12 +34,12 @@ hr {
 }
 
 .jumbotron {
-	background: url("../imgs/scotland2.JPG");
+	background: url("../imgs/scotland3.JPG");
 	background-size: cover;
-    background-position: center;
-    color: white;
+  background-position: center;
+  color: white;
 	text-align: center;
-    height: 100vh;
+  height: 100vh;
 	margin: 0;
 	padding: 0;
 }
@@ -60,7 +60,7 @@ hr {
 .type-text {
 	height: 100%;
 	padding-top: 35vh;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .typewriter-cursor {
@@ -115,20 +115,105 @@ hr {
 	font-family: 'Alegreya', serif;
 }
 
-.lycurgus {
+.big-projects {
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
+.lycurgus {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.lycurgus-title {
+	padding-left: 10px;
+	border-left: 2px solid #FFCA28;
+}
+
+.lycurgus-content {
+	margin-top: 20px;
+	margin-left: 12px;
+}
+
+.lycurgus-content p {
+	font-size: x-large;
+}
+
+.get-cooking-title {
+	margin-top: 60px;
+	margin-left: 30px;
+	padding-left: 10px;
+	border-left: 2px solid lightskyblue;
+}
+
+.get-cooking-content {
+	margin-left: 42px;
+	margin-top: 20px;
+}
+
+.get-cooking-content p {
+	font-size: large;
+}
+
+.get-cooking-link {
+	font-size: x-large;
+	color: #f54542;
+}
+
+.get-cooking-link:hover {
+	text-decoration: none;
+	color: lightskyblue;
+}
 
 .vulcan {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.vulcan-title {
+	padding-left: 10px;
+	border-left: 2px solid orange;
+}
+
+.vulcan-content {
+	margin-top: 20px;
+}
+
+.vulcan-image {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.vulcan-text h2 {
+	margin-top: 20px;
+	padding-left: 10px;
+	border-left: 2px solid orange;
+}
+
+.vulcan-text p {
+	padding-left: 12px;
+	font-size: large;
+}
+
+.vulcan-link {
+	font-size: x-large;
+	color: #f54542;
+}
+
+.vulcan-link:hover {
+	text-decoration: none;
+	color: orange;
+}
+
+.vulcan-footer {
+	margin-left: 30px;
+	margin-top: 30px;
 }
 
 .academics {
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 
 .academics h1 {
@@ -157,19 +242,14 @@ hr {
 	font-size: 20px;
 }
 
- #disclaimer {
- 	text-align: center;
- }
-
 .projects {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 100px;
 }
 
 .projects h1 {
 	font-size: 40px;
 	text-align: center;
-	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
@@ -228,8 +308,8 @@ hr {
 	text-decoration: none;
 	font-size: 2em;
 	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-				 0px 8px 13px rgba(0, 0, 0, 0.1),
-				 0px 18px 23px rgba(0, 0, 0, 0.1);
+				       0px 8px 13px rgba(0, 0, 0, 0.1),
+				       0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 #stockoverflow {
@@ -247,7 +327,6 @@ hr {
 	background: #070000;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 #drone button {
@@ -261,8 +340,6 @@ hr {
 	background: #232526;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 #hatioli button {
@@ -290,38 +367,43 @@ hr {
 
 .athletics .lacrosse1 {
 	background-image: url("../imgs/lacrosse.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 20em;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 20em;
 }
 
 .athletics .hockey {
 	background-image: url("../imgs/hockey.JPG");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 20em;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 20em;
 }
 
 .athletics .intramural {
 	background-image: url("../imgs/intramural.JPG");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 20em;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 20em;
 }
 
 .athletics p a {
-	text-decoration: none;
+	font-size: x-large;
 	color: red;
+}
+
+.athletics p a:hover {
+	text-decoration: none;
+	color: darkred;
 }
 
 .footer {
 	background-color: #222222;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	color: #e2b71b;
+	color: lightskyblue;
 	text-align: center;
 }
 
@@ -335,7 +417,7 @@ hr {
 }
 
 .footer a:hover {
-	color: #e2b71b;
+	color: lightskyblue;
 }
 
 #site-descr {
