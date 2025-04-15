@@ -17,8 +17,11 @@ typewriter.typeString('a software engineer.')
     .deleteChars(17)
     .typeString('n entrepreneur.')
     .pauseFor(2500)
-    .deleteChars(15)
-    .typeString(' stake pool operator.')
+    .deleteChars(14)
+    .typeString(' outdoorsman.')
+    .pauseFor(2500)
+    .deleteChars(14)
+    .typeString(' husband.')
     .pauseFor(2500)
     .deleteAll()
     .start();
@@ -58,5 +61,11 @@ $("#projects-btn").click(function() {
 $("#athletics-btn").click(function() {
 	$("html, body").animate({
 		scrollTop: $("#athletics").offset().top
+	}, 1000);
+});
+
+$("#outdoors-btn").click(function() {
+	$("html, body").animate({
+		scrollTop: $("#outdoors").offset().top
 	}, 1000);
 });

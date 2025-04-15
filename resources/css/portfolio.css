@@ -34,7 +34,7 @@ hr {
 }
 
 .jumbotron {
-	background: url("../imgs/scotland3.JPG");
+	background: url("../imgs/eldorado_peak.jpg");
 	background-size: cover;
   background-position: center;
   color: white;
@@ -202,16 +202,6 @@ hr {
 .vulcan-text p {
 	padding-left: 12px;
 	font-size: large;
-}
-
-.vulcan-link {
-	font-size: x-large;
-	color: #f54542;
-}
-
-.vulcan-link:hover {
-	text-decoration: none;
-	color: orange;
 }
 
 .vulcan-footer {
@@ -405,6 +395,53 @@ hr {
 .athletics p a:hover {
 	text-decoration: none;
 	color: darkred;
+}
+
+.outdoors {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.outdoors h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.outdoors p {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.outdoors .campsite {
+	background-image: url("../imgs/liberty_bell.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 20em;
+}
+
+.outdoors .jeep {
+	background-image: url("../imgs/jeep3.JPG");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 20em;
+}
+
+.outdoors .temple {
+	background-image: url("../imgs/temple.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 20em;
+}
+
+.outdoors .image-caption {
+	text-align: center;
+  font-size: medium;
+  font-style: italic;
 }
 
 .footer {
